@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite-1]">
-  <listeners>
-    <listener class-name="customListeners.Listeners"/>
-  </listeners>
-  <test name="suiteTest1(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
       <class name="Testpackage2.TestCase1">
         <methods>
@@ -21,5 +18,5 @@
         </methods>
       </class> <!-- Testpackage2.TestCase1 -->
     </classes>
-  </test> <!-- suiteTest1(failed) -->
-</suite> <!-- Failed suite [Suite-1] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
