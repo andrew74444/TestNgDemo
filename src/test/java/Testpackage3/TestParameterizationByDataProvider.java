@@ -1,0 +1,34 @@
+package Testpackage3;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class TestParameterizationByDataProvider {
+	
+	
+	@Test(dataProvider="getData")
+	public void doLogin(String username, String password) {
+		System.out.println(username+"---"+password);
+		
+	}
+
+	@DataProvider
+	public Object[][] getData() {
+
+		Object[][] data = new Object[2][2];
+		
+		data[0][0] = "trainer@way2automation.com";
+		data[0][1] = "sdfsdf";
+		
+		data[1][0] = "java@way2automation.com";
+		data[1][1] = "sdfsdfsf";
+		
+		
+		
+		return data;
+		
+	}
+	
+	
+	
+}

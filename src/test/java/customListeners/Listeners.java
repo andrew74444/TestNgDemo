@@ -24,7 +24,7 @@ public class Listeners implements ITestListener{
 		System.setProperty("org.uncommons.reportng.escape-output","false");
 		Reporter.log("<a href=\"C:\\Users\\QA Team\\Desktop\\3.jpg\" target=\"_blank\">Screenshot link</a>");
 		Reporter.log("<br>");
-		Reporter.log("<a href=\"F:\\screenshot\\error.jpg\" target=\"_blank\"><img height=200 width=200 src=\"C:\\Users\\QA Team\\Desktop\\3.jpg\"></a>");
+		Reporter.log("<a href=\"C:\\Users\\QA Team\\Desktop\\3.jpg\" target=\"_blank\"><img height=200 width=200 src=\"C:\\Users\\QA Team\\Desktop\\3.jpg\"></a>");
 		
 		
 		System.out.println("Capturing Screenshot for the Failed test -- "+result.getName());

@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite-1]">
-  <listeners>
-    <listener class-name="customListeners.Listeners"/>
-  </listeners>
-  <test name="suiteTest1(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Testpackage2.TestCase1">
+      <class name="Testpackage3.ExcelParameterizationWithHashTable">
         <methods>
-          <include name="openBrowser"/>
-          <include name="beforesuite"/>
-          <include name="AfterTest"/>
-          <include name="a"/>
-          <include name="x"/>
-          <include name="beforeclass"/>
-          <include name="Aftersuite"/>
-          <include name="beforeTest"/>
-          <include name="Afterclass"/>
-          <include name="tearDown"/>
+          <include name="x" invocation-numbers="1 2 3 5"/>
         </methods>
-      </class> <!-- Testpackage2.TestCase1 -->
+      </class> <!-- Testpackage3.ExcelParameterizationWithHashTable -->
     </classes>
-  </test> <!-- suiteTest1(failed) -->
-</suite> <!-- Failed suite [Suite-1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

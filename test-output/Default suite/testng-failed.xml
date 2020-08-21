@@ -3,19 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Testpackage.TestCase1">
+      <class name="Testpackage3.ExcelParameterizationWithHashTable">
         <methods>
-          <include name="a"/>
-          <include name="openBrowser"/>
-          <include name="beforesuite"/>
-          <include name="AfterTest"/>
-          <include name="beforeclass"/>
-          <include name="Aftersuite"/>
-          <include name="beforeTest"/>
-          <include name="Afterclass"/>
-          <include name="tearDown"/>
+          <include name="x" invocation-numbers="1 2 3 5"/>
         </methods>
-      </class> <!-- Testpackage.TestCase1 -->
+      </class> <!-- Testpackage3.ExcelParameterizationWithHashTable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

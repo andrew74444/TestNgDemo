@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite-2]">
+  <listeners>
+    <listener class-name="retrytests.RetryListner"/>
+    <listener class-name="customListeners.Listeners"/>
+  </listeners>
+  <test name="suiteTest2(failed)">
+    <classes>
+      <class name="Testpackage2.TestCase1">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="beforesuite"/>
+          <include name="AfterTest"/>
+          <include name="a"/>
+          <include name="x"/>
+          <include name="beforeclass"/>
+          <include name="Aftersuite"/>
+          <include name="beforeTest"/>
+          <include name="Afterclass"/>
+          <include name="p"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Testpackage2.TestCase1 -->
+    </classes>
+  </test> <!-- suiteTest2(failed) -->
+</suite> <!-- Failed suite [Suite-2] -->

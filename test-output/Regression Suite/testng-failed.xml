@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test name="TestParametersFromXML Test 1(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="Searchvalue" value="Selenium Learning"/>
+    <classes>
+      <class name="Testpackage3.TestCase4">
+        <methods>
+          <include name="x" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testpackage3.TestCase4 -->
+    </classes>
+  </test> <!-- TestParametersFromXML Test 1(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

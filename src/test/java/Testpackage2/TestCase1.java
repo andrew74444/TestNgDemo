@@ -1,6 +1,7 @@
 package Testpackage2;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -85,6 +86,8 @@ public class TestCase1 extends BaseTest {
 //			
 //			throw new SkipException("Skipping the test as the condition is not met");
 //			}
+		
+		assertTrue(false);
 		
 		System.out.println("P");
 

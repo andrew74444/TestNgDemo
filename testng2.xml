@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite-2">
+ <listeners>
+	<listener class-name="retrytests.RetryListner"></listener>
+	<listener class-name="customListeners.Listeners"></listener>
+	</listeners>
   <test name="suiteTest2">
     <classes>
-      <class name="Testpackage2.TestCase2"/>
+      <class name="Testpackage2.TestCase1"/>
       
     </classes>
   </test> <!-- Test -->
